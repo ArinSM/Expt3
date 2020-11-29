@@ -1,0 +1,180 @@
+body {
+	margin: 0px auto;
+	width: 100%;
+}
+nav ul li {
+	list-style-type: none;
+	float: left;
+	padding-right:2.5em;
+}
+nav ul li a{
+	text-decoration: none;
+	color: #fff;
+}
+nav ul {
+	float: right;
+}
+nav {
+	width:100%;
+	height: 50px;
+	background-color: #ff5f40;
+	position: fixed;
+}
+section {
+	background-color:#7fdbda;
+}
+.home{
+	background-color: #bbe1fa;
+	text-align: center;
+	font-size: 55px;
+	display: table;
+	height: 100vh;
+	width: 100%;
+}
+.inner{
+	display: table-cell;
+	vertical-align: middle;
+}
+.home .inner img{
+	border-radius:100%;
+	width: 250px;
+	height: auto;
+}
+.about{
+	background-image: url('https://cdn.shortpixel.ai/client2/q_lossless,ret_img,w_1024/https://www.bopdesign.com/wp-content/uploads/2019/10/BOP-B2B-Web-Design-Essentials-Intro-for-CMOs-1024x352-B.jpg');
+	height:100vh;
+	width: 100%;
+	display: table;
+	background-size: cover;
+	background-repeat: no-repeat;
+
+}
+.about .in{
+	display: table-cell;
+	vertical-align: middle;
+	width: 50%;
+	float: left;
+	padding-top:30px; 
+	padding-left: 30px;
+}
+.about .in h1{
+	font-size: 48px;
+}
+.about .in p{
+	font-size: 32px;
+	line-height: 40px;
+	color: #fff;
+}
+.education{
+	background-color: #fff;
+	display: table;
+	height: 100vh;
+	width: 100%;
+
+}
+.education .inner{
+	padding: 30px;
+
+}
+.education .inner h1{
+	font-size: 42px;
+}
+.education .inner div{
+	margin-right: 5px;
+	margin-left: 5px;
+	width: 30%;
+	float: left;
+	text-align: center;
+}
+.education .inner div h1{
+	font-size: 32px;
+}
+.education .inner div img{
+	width: 100px;
+	height: auto;
+
+}
+.hobby, .skill{
+	display: table;
+	height: 100vh;
+	width: 100%;
+}
+.hobby .inner div, .skill .inner div{
+	margin-right: 5px;
+	margin-left: 5px;
+	width: 30%;
+	float: left;
+	text-align: center;
+	
+}
+.hobby .inner h1{
+	text-align: left;
+	font-size: 32px;
+}
+
+.hobby .inner div img{
+	width: 100px;
+	height: auto;
+
+}
+.hobby .inner h2{
+	font-size: 26px;
+	text-align: center;
+	float: left;
+
+}
+.hobby .inner{
+	text-align: center;
+	padding: 30px;
+}
+.skill{
+	background-image: url(https://businessfirstfamily.com/wp-content/uploads/2017/02/technology-background-build-app.jpg);
+	background-size: cover;
+}
+.skill .inner{
+	padding: 50px;
+}
+.skill .inner h1{
+	font-size: 32px;
+
+}
+.skill .inner div h2{
+	padding-right: 280px;
+}
+
+.skill .inner div ul li{
+	list-style-type: none;
+	font-size: 26px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-right: 280px;
+	color: #fff;
+}
+.contact{
+	display: table;
+	width: 100%;
+	height: 100vh;
+}
+.contact .inner{
+	padding: 50px;
+	text-align: center;
+}
+.contact .inner h1{
+	font-size: 32px;
+
+}
+/* responsive designing */
+@media (min-width: 320px) and (max-width: 767px) {
+	.about .in p{
+		font-size: 24px;
+		text-align:justify;
+		width: 100%;
+	}
+}
+.education .inner div,.home .inner{
+	width: 100%;
+}
+.hobby .inner div{
+	width: 100%;
+	border-bottom:2px solid #fff;
+}
